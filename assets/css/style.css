@@ -132,7 +132,8 @@ header {
         padding: 4rem;
         text-align: center;
 
-        font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+        font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
 
 
         h1 {
@@ -169,10 +170,11 @@ header {
             font-size: 40px
         }
 
-        h2{
+        h2 {
             border: 0;
         }
-        img{
+
+        img {
             border: 0;
         }
 
@@ -185,9 +187,22 @@ footer {
     background-color: var(--dis-primary-dark);
     min-height: 450px;
 
+
     .w-80.d-flex {
         div {
             flex-grow: 1;
+            list-style: none;
+            
+        }
+
+        a {
+            color: var(--dis-light);
+            text-decoration-line: none;
+            
+
+            .maiusc {
+                color: var(--dis-footer);
+            }
         }
 
     }
