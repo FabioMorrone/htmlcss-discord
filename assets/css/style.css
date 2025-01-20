@@ -63,13 +63,14 @@ header {
     .menu {
         flex-grow: 2;
         text-align: center;
-        
+
     }
-    a{
+
+    a {
         text-decoration: none;
         color: #FFFFFF;
         padding: 1rem;
-        
+
     }
 }
 
@@ -105,11 +106,14 @@ header {
 .jumbotron {
     background-color: var(--dis-primary-color);
     padding: 1rem;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
 
     .content {
         width: 70%;
         margin: auto;
-
+        color: #FFFFFF;
+        padding: 2rem;
     }
 }
 
