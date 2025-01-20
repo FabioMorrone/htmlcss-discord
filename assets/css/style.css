@@ -26,7 +26,7 @@ section {
     display: flex;
 }
 
-.justify-content-between{
+.justify-content-between {
     justify-content: space-between;
 }
 
@@ -63,9 +63,16 @@ header {
     .menu {
         flex-grow: 2;
         text-align: center;
+        
     }
-
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 1rem;
+        
+    }
 }
+
 
 
 /* Main */
