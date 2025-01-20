@@ -52,19 +52,18 @@ header {
     padding: 1rem 0;
 
     .logo,
-    .actions {
+    .actions,
+    .menu {
         flex-grow: 1;
+        text-align: center;
+        align-content: center;
     }
 
     .actions {
         text-align: end;
     }
 
-    .menu {
-        flex-grow: 2;
-        text-align: center;
 
-    }
 
     a {
         text-decoration: none;
@@ -112,9 +111,30 @@ header {
     .content {
         width: 70%;
         margin: auto;
-        color: #FFFFFF;
-        padding: 2rem;
+        color: var(--dis-light);
+        padding: 4rem;
+        text-align: center;
+
+        font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+        h1 {
+            margin: 1rem;
+            font-size: 40px;
+        }
     }
+}
+
+.btn {
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    margin: 1rem;
+    border: none;
+}
+
+.btn-primary-dark{
+    background-color: var(--dis-button-B);
+    color: var(--dis-light)
 }
 
 .technology {
