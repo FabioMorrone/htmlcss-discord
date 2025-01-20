@@ -42,7 +42,7 @@ section {
     width: 40%;
     align-content: center;
 
-    h1{
+    h1 {
         font-size: 40px;
         margin-bottom: 1rem;
     }
@@ -50,7 +50,7 @@ section {
     img {
         max-width: 100%;
     }
-    
+
 }
 
 .w-60 {
@@ -61,113 +61,140 @@ section {
     }
 
 }
-   
-    /* Header */
-    header {
-        background-color: var(--dis-primary-color);
-        padding: 1rem 0;
 
-        .logo,
-        .actions,
-        .menu {
-            flex-grow: 1;
-            text-align: center;
-            align-content: center;
-        }
+/* Header */
+header {
+    background-color: var(--dis-primary-color);
+    padding: 1rem 0;
 
-        .actions {
-            text-align: end;
-        }
+    .logo,
+    .actions,
+    .menu {
+        flex-grow: 1;
+        text-align: center;
+        align-content: center;
+    }
 
-
-
-        a {
-            text-decoration: none;
-            color: #FFFFFF;
-            padding: 1rem;
-
-        }
+    .actions {
+        text-align: end;
     }
 
 
 
-    /* Main */
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 1rem;
 
-    .debug {
-        * {
-            border: 1px dashed;
-        }
+    }
+}
 
-        .container {
-            background-color: orange;
-        }
 
-        .jumbotron {
-            height: 400px;
 
-            .content {
-                height: 100%;
-                background-color: orange;
-            }
-        }
+/* Main */
 
-        .w-40,
-        .w-60 {
-            height: 300px;
-            background-color: blue;
-        }
+.debug {
+    * {
+        border: 1px dashed;
+    }
+
+    .container {
+        background-color: orange;
     }
 
     .jumbotron {
-        
-        padding: 1rem;
-        background-image: url(../img/jumbo.png);
-      
-        background-size: 100%;
+        height: 400px;
 
         .content {
-            width: 70%;
-            margin: auto;
-            color: var(--dis-light);
-            padding: 4rem;
-            text-align: center;
-
-            font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-
-            h1 {
-                margin: 1rem;
-                font-size: 40px;
-            }
+            height: 100%;
+            background-color: orange;
         }
     }
 
-    .btn {
-        padding: 0.5rem;
-        border-radius: 1.5rem;
-        margin: 1rem;
-        border: none;
+    .w-40,
+    .w-60 {
+        height: 300px;
+        background-color: blue;
     }
+}
 
-    .btn-primary-dark {
-        background-color: var(--dis-button-B);
-        color: var(--dis-light)
-    }
+.jumbotron {
 
-    .technology {
-        .container {
-            min-height: 450px;
+    padding: 1rem;
+    background-image: url(../img/jumbo.png);
+
+    background-size: 100%;
+
+    .content {
+        width: 70%;
+        margin: auto;
+        color: var(--dis-light);
+        padding: 4rem;
+        text-align: center;
+
+        font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+        h1 {
+            margin: 1rem;
+            font-size: 40px;
         }
     }
+}
 
-    footer {
-        background-color: var(--dis-primary-dark);
+.btn {
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    margin: 1rem;
+    border: none;
+}
+
+.btn-button-C {
+    background-color: var(--dis-button-C);
+    color: var(--dis-light);
+}
+
+.btn-primary-dark {
+    background-color: var(--dis-button-B);
+    color: var(--dis-light)
+}
+
+.technology {
+
+    .container {
         min-height: 450px;
+        text-align: center;
 
-        .w-80.d-flex {
-            div {
-                flex-grow: 1;
-            }
-
+        h1 {
+            font-size: 40px
         }
+
+        h2{
+            border: 0;
+        }
+        img{
+            border: 0;
+        }
+
+
     }
+}
+
+
+footer {
+    background-color: var(--dis-primary-dark);
+    min-height: 450px;
+
+    .w-80.d-flex {
+        div {
+            flex-grow: 1;
+        }
+
+    }
+}
+
+img {
+    margin-block-end: auto;
+    max-height: 100%;
+    min-height: 100%;
+}
